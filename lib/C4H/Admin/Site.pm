@@ -1,0 +1,35 @@
+package C4H::Admin::Site;
+
+use strict;
+use warnings;
+use C4H::Admin::Site::Builder;
+
+our $VERSION = "0.10";
+
+my $builder = C4H::Admin::Site::Builder->new(
+    appname => __PACKAGE__,
+    version => $VERSION,
+);
+
+$builder->bootstrap;
+
+1;
+
+=head1 NAME
+
+C4H::Admin::Site - Front end site for the users.
+
+=head1 DESCRIPTION
+
+=head1 METHODS
+
+=head1 ATTRIBUTES
+
+
+=head1 LICENSE AND COPYRIGHT
+
+Copyright 2015 OpusVL.
+
+This software is licensed according to the "IP Assignment Schedule" provided with the development project.
+
+=cut
