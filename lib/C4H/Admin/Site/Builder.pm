@@ -15,30 +15,7 @@ override _build_plugins => sub {
 override _build_config => sub 
 {
     my $self   = shift;
-    my $config = super(); # Get what CatalystX::AppBuilder gives you
-
-    $config->{'Controller::Login'} =
-    {
-        traits => '+OpusVL::AppKit::TraitFor::Controller::Login::NewSessionIdOnLogin',
-    };
-
-    $config->{'Plugin::Authentication'} =
-    {
-            default_realm   => 'ldap',
-            ldap          =>
-            {
-                credential =>
-                {
-                   class              => 'Password',
-                   password_type      => 'self_check',
-                },
-                store =>
-                {
-                   class              => 'DBIx::Class',
-                   user_model         => 'Users::Person',
-                }
-            },
-    };
+    my $config = super(); # Get what OpusVL::WebsiteAdmin::Builder gives you
 
     return $config;
 };
