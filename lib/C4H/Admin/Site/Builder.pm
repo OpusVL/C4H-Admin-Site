@@ -7,6 +7,8 @@ override _build_plugins => sub {
     my $plugins = super(); # Get what OpusVL::WebsiteAdmin::Builder gives you
 
     push @$plugins, qw/
+        +Code4Health::AppKitX::UserAdmin
+        +Code4Health::AppKitX::Organisations
     /;
 
     return $plugins;
