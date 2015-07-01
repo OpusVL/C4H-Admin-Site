@@ -11,6 +11,11 @@ all_from 'lib/C4H/User/Site.pm';
 
 requires 'OpusVL::Website' => 0.08;
 requires 'Code4Health::AppKitX::Users';
+requires 'Code4Health::AppKitX::UserAdmin';
+requires 'Code4Health::AppKitX::Organisations';
+
+requires 'OpusVL::AppKitX::CMS' => 0.92;
+requires 'OpusVL::AppKitX::CMSView' => 0.74;
 
 catalyst;
 
