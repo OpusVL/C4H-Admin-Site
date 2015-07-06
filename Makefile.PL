@@ -6,8 +6,8 @@ use Module::Install::Catalyst; # Complain loudly if you don't have
                                # Catalyst::Devel installed or haven't said
                                # 'make dist' to create a standalone tarball.
 
-name 'C4H-User-Site';
-all_from 'lib/C4H/User/Site.pm';
+name 'C4H-Admin-Site';
+all_from 'lib/C4H/Admin/Site.pm';
 
 requires 'OpusVL::Website' => 0.08;
 requires 'Code4Health::AppKitX::Users';
