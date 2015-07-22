@@ -9,10 +9,10 @@ use Module::Install::Catalyst; # Complain loudly if you don't have
 name 'C4H-Admin-Site';
 all_from 'lib/C4H/Admin/Site.pm';
 
-requires 'OpusVL::WebsiteAdmin' => 0.09;
-requires 'Code4Health::AppKitX::Users';
-requires 'Code4Health::AppKitX::UserAdmin';
-requires 'Code4Health::AppKitX::Organisations';
+requires 'OpusVL::WebsiteAdmin' => "0.09";
+requires 'Code4Health::AppKitX::Users' => "0.04";
+requires 'Code4Health::AppKitX::UserAdmin' => "0.02";
+requires 'Code4Health::AppKitX::Organisations' => "0.03";
 
 requires 'OpusVL::AppKitX::CMS' => 0.92;
 requires 'OpusVL::AppKitX::CMSView' => 0.74;
