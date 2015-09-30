@@ -9,6 +9,7 @@ override _build_plugins => sub {
     push @$plugins, qw/
         +Code4Health::AppKitX::UserAdmin
         +Code4Health::AppKitX::Organisations
+        +OpusVL::AppKitX::SysParams
     /;
 
     return $plugins;
