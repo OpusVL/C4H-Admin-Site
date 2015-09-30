@@ -16,6 +16,7 @@ requires 'Code4Health::AppKitX::Organisations' => "0.03";
 
 requires 'OpusVL::AppKitX::CMS' => 0.95;
 requires 'OpusVL::AppKitX::CMSView' => 0.74;
+requires 'OpusVL::AppKitX::SysParams';
 
 catalyst;
 
