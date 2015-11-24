@@ -21,7 +21,7 @@ requires 'OpusVL::AppKitX::SysParams';
 
 catalyst;
 
-install_script glob('script/*.pl');
+install_script glob('bin/*.pl');
 auto_install;
 resources (
     repository => {
