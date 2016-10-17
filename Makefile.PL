@@ -21,7 +21,7 @@ requires 'OpusVL::AppKitX::SysParams';
 
 catalyst;
 
-install_script glob('bin/*.pl');
+install_script glob('bin/*.psgi');
 auto_install;
 resources (
     repository => {
