@@ -7,3 +7,4 @@ requires 'Code4Health::AppKitX::CommunityAdmin' => "0.01";
 requires 'OpusVL::AppKitX::CMS';
 requires 'OpusVL::AppKitX::CMSView' => 0.74;
 requires 'OpusVL::AppKitX::SysParams';
+requires 'OpusVL::Preferences';
